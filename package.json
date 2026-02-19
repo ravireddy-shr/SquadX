@@ -1,0 +1,37 @@
+{
+  "name": "skillchain-pro",
+  "version": "1.0.0",
+  "description": "Production-ready Web3 Talent Verification Platform on Algorand Testnet",
+  "scripts": {
+    "install:all": "npm install && cd frontend && npm install",
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm run start",
+    "lint": "cd frontend && npm run lint",
+    "lint:fix": "cd frontend && npm run lint:fix",
+    "test:contract": "cd contracts && pytest tests/ -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/skillchain-pro.git"
+  },
+  "keywords": [
+    "algorand",
+    "web3",
+    "blockchain",
+    "credentials",
+    "talent",
+    "verification",
+    "certificates",
+    "next.js",
+    "react",
+    "typescript"
+  ],
+  "author": "SkillChain Pro",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0",
+    "python": ">=3.10"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules
+.next
+dist
+build
+*.log
+.env.local
+.DS_Store
+.pytest_cache
+__pycache__
+*.egg-info
+.venv
+venv
